@@ -9,7 +9,7 @@ MongoClient.connect('mongodb://localhost:27017/ToDoApp', {useNewUrlParser: true}
   const db = client.db('ToDoApp');
 
   db.collection('Users').insertOne({
-    Name: "Aditya Prakash",
+    Name: "Adi",
     Age: 25,
     Location: "Jamshedpur, Jharkhand"
   }, (err, result)=>{
